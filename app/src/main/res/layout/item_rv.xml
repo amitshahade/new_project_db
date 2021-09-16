@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        android:elevation="4dp"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="text1"
+                android:textAppearance="@android:style/TextAppearance.Large"/>
+
+            <ImageView
+                android:id="@+id/imgupdate"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tvName"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_baseline_edit_24"
+                />
+            <ImageView
+                android:id="@+id/imgdelete"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tvName"
+                android:layout_below="@+id/imgupdate"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_baseline_close_24"
+                />
+
+            <TextView
+                android:id="@+id/tvdesignation"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tvName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="text2"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+            <TextView
+                android:id="@+id/tvmobile"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tvdesignation"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="text3"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

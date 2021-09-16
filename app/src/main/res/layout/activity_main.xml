@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/name"w
+        app:hintTextColor="#DC4A1C"
+        app:boxStrokeColor="#DC4A1C"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Name"
+            android:paddingStart="8dp"
+            android:inputType="textCapWords"
+            android:paddingEnd="8dp"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/designatiion"
+        app:hintTextColor="#DC4A1C"
+        app:boxStrokeColor="#DC4A1C"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the designatiion"
+            android:paddingStart="8dp"
+            android:inputType="textCapWords"
+            android:paddingEnd="8dp"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/mobile"
+        app:hintTextColor="#DC4A1C"
+        app:boxStrokeColor="#DC4A1C"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Mobile No."
+            android:paddingStart="8dp"
+            android:inputType="textCapWords"
+            android:paddingEnd="8dp"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:text="SAVE"
+            android:id="@+id/saveBtn"
+        app:backgroundTint="#DC4A1C"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="end"
+        app:cornerRadius="25dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_height="wrap_content"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:text="SHOW"
+        android:id="@+id/showbtn"
+        app:backgroundTint="#DC4A1C"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_gravity="end"
+        app:cornerRadius="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
